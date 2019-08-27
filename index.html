@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+  ImageSwitch=new Array();
+    ImageSwitch[0]='coolpic.jpg';
+    ImageSwitch[1]='vector.jpg';
+    ImageSwitch[2]='jah.jpg';
+    ImageSwitch[3]='car.jpg';
+
+    function swapImage() 
+    {
+        document.getElementById("theImage").setAttribute("src", ImageSwitch[
+
+Math.round(Math.random()*3)])
+    }
+    </script>
+  
 <title>Creeper</title>
 </head>
 <body>
@@ -17,18 +32,7 @@
  
 < <button onclick="swapImage">Click Here</button>
   
-   ImageSwitch=new Array();
-    ImageSwitch[0]='coolpic.jpg';
-    ImageSwitch[1]='vector.jpg';
-    ImageSwitch[2]='jah.jpg';
-    ImageSwitch[3]='car.jpg';
-
-    function swapImage() 
-    {
-        document.getElementById("theImage").setAttribute("src", ImageSwitch[
-
-Math.round(Math.random()*3)])
-    }
+   
  
   <a href="https://www.youtube.com/watch?v=F2SSipXTd6Y">CS</a>
 </body>
